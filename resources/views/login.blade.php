@@ -325,18 +325,18 @@
             <form id="login-form" style=" padding-left: 2%;
             padding-right: 2%; font-family: Verdana, Geneva, Tahoma, sans-serif">
 
-                <div class="form-group" style="padding-top: 2%">
+                <div class="form-group" style="padding-top: 3%">
                     <i class="fas fa-envelope fa-lg" style="color:grey"></i>
                     <label for="Email">Email address</label>
                     <input type="email" class="form-control" id="Email"
-                        style="opacity: 0.6; filter:blur(0.8); margin-bottom:3%">
+                        style="opacity: 0.6; filter:blur(0.8); margin-bottom:4%">
                 </div>
 
                 <div class="form-group">
                     <i class="fa fa-lock fa-lg" style="color:grey"></i>
                     <label for="Password">Password</label>
                     <input type="password" class="form-control" id="Password"
-                        style="opacity: 0.6; filter:blur(0.8); margin-bottom:3%">
+                        style="opacity: 0.6; filter:blur(0.8); margin-bottom:4%">
                 </div>
 
                 <div class="form-group form-check">
@@ -358,7 +358,7 @@
                 </div> --}}
 
 
-                <div class="select">
+                {{-- <div class="select">
                     <select class="form-select" aria-label="Default select " id="select">
                         <option selected>Position</option>
                         <option value="1">Lecturer</option>
@@ -367,7 +367,7 @@
                         <option value="4">Dean/Deputy Dean</option>
                         <option value="3">Admin</option>
                     </select>
-                </div>
+                </div> --}}
 
 
                 <button type="submit" class="btn btn-primary" id="Login-Button">Submit</button>

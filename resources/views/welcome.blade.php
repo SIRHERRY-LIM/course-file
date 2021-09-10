@@ -58,9 +58,8 @@
             <p id="welcome"> Welcome to FCI UMS</p>
             <p id="small-title">Please Choose Access Type </p>
 
-            <button type="button" class="btn btn-primary btn-lg" id="button-admin">
-                Admin
-            </button>
+            <button type="button" class="btn btn-primary btn-lg" id="button-admin"
+                onclick="document.location.href='/login'">Admin </button>
             <button type="button" class="btn btn-primary btn-lg" id="button-dd">
                 Dean/Deputy Dean
             </button>
