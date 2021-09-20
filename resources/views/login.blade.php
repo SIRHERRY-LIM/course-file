@@ -323,20 +323,23 @@
 
 
             <form id="login-form" style=" padding-left: 2%;
-            padding-right: 2%; font-family: Verdana, Geneva, Tahoma, sans-serif">
+            padding-right: 2%; font-family: Verdana, Geneva, Tahoma, sans-serif" action="/login" method="POST">
 
+                @csrf
                 <div class="form-group" style="padding-top: 3%">
                     <i class="fas fa-envelope fa-lg" style="color:grey"></i>
                     <label for="Email">Email address</label>
                     <input type="email" class="form-control" id="Email"
-                        style="opacity: 0.6; filter:blur(0.8); margin-bottom:4%">
+                        style="opacity: 0.6; filter:blur(0.8); margin-bottom:4%" name="email"
+                        placeholder="name@ums.edu.my" autofocus required>
                 </div>
 
                 <div class="form-group">
                     <i class="fa fa-lock fa-lg" style="color:grey"></i>
                     <label for="Password">Password</label>
                     <input type="password" class="form-control" id="Password"
-                        style="opacity: 0.6; filter:blur(0.8); margin-bottom:4%">
+                        style="opacity: 0.6; filter:blur(0.8); margin-bottom:4%" name="password"
+                        placeholder="please enter password" autofocus required>
                 </div>
 
                 <div class="form-group form-check">
